@@ -1,1 +1,67 @@
+body{
+    max-width: 90%;
+    margin:auto;
+    background:linear-gradient(#f69d3c, #3f87a6);
+    color: rgb(71, 71, 71);
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.6px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+a:hover{
+    color: #e2742b;
+}
+a:visited{
+    color: #fcb501;
+}
+q{
+    max-width: 50%;
+    margin:auto;
+    font-size: 160%;
+    background-color: rgb(214, 213, 213);
+    border-left: 3px solid black;
+    padding-left: 30px;
+    margin: 80px auto;
+    font-style:italic;
+    display: block;
+}
+.farmer{
+    border-color: #e2742b;
+}
+.villagers{
+    border-color: #3f87a6;
+}
+
+    
+header>h1{
+    background-color: rgb(230, 230, 96);
+}
+.bad, .good{
+    text-transform: capitalize;
+}
+.bad{
+    color: rgb(195, 0, 0);
+}
+.good{
+    color:rgb(1, 87, 1);
+}
+tr:nth-child(even){
+    background-color: white;
+}
+tr:nth-child(odd){
+    background-color: rgb(191, 190, 190);
+}
+section>p{
+    font-weight: bold;
+}
+img{
+    float: left;
+    width:400px;
+    margin: 40px;
+}
 
